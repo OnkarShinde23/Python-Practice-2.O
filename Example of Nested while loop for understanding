@@ -1,0 +1,13 @@
+A=1
+
+while A<=3:
+    print("Outer Loop",A)
+    A=A+1
+    B=1
+    while B<=5:
+        print("Inner Loop",B)
+        B=B+1
+        
+else:
+    print("Nested while loop")
+    
